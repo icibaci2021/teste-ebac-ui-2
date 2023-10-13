@@ -3,7 +3,7 @@
 describe('Funcionalidade Página de Produtos', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('produtos')
     })
     it('Deve seecionar um rpoduto da lista', () => {
         //podemos colocar jogo da velha toda vez que for ID e colocar ponto, toda vez que for classe

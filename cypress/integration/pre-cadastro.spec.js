@@ -4,7 +4,7 @@ var faker = require('faker'); //biblioteca do node - variavel
 context('Funcionalidade Pré Cadastro', () => {
     
     beforeEach(() => {
-        cy.visit('minha-conta/')
+        cy.visit('minha-conta')
     });
 
     it('Deve completar o pré cadastro com sucesso', () => {
